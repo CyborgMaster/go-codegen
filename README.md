@@ -16,6 +16,10 @@ differentiate installs of nullstyle's project vs this one.
 
 ## Installation
 
+**Caution** if using go version > 1.21 you will run into 
+[this](https://github.com/CyborgMaster/go-codegen/issues/3) issue. 
+See the [go version management](https://go.dev/doc/manage-install) documentation
+for how to install a supported version of go. 
 ```bash
 go install github.com/CyborgMaster/go-codegen/cmd/go-codegen@latest
 ```
